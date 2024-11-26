@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.clientes-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.clientes-top-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    background-color: #091f3be1;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.clientes-top-section label {
+    color: #000000;
+    font-weight: bold;
+}
+
+.clientes-top-section input {
+    background-color: #ffffff;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.clientes-top-section input::placeholder {
+    color: #666;
+}
+
+.clientes-buscar-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.clientes-buscar-btn:hover {
+    background-color: #0056b3;
+}
+
+
+.clientes-middle-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.clientes-image-container img {
+    width: 100%;
+    max-height: 700px;
+    border-radius: 20px;
+    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.2);
+}
+
+.clientes-form-container h3 {
+    color: #000000;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.clientes-form-container {
+    flex: 1;
+    margin-left: auto;
+    max-width: 550px;
+}
+
+.clientes-bottom-section {
+    background-color: #091727;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(235, 235, 235);
+}
+
+.clientes-list-item {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #080c3b;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.clientes-list-item:last-child {
+    margin-bottom: 0;
+}
+
+.clientes-list-item .MuiListItemText-primary {
+    color: #000000;
+}
+
+
+.clientes-list-item-text {
+    color: #000000;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .clientes-middle-section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .clientes-image-container img {
+        width: 100%;
+    }
+
+    .clientes-form-container {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}

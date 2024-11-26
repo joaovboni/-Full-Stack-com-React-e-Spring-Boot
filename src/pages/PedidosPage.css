@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #ffffff;
+  }
+
+  .pedidos-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .pedidos-top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .pedidos-image-container img {
+    width: 100%;
+    max-height: 420px;
+    border-radius: 20px;
+    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.2);
+  }
+
+  .pedidos-form-container {
+    flex: 1;
+    margin-left: 20px;
+    max-width: 550px;
+  }
+
+  .pedidos-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 8px;
+  }
+
+  .pedidos-form h3 {
+    color: #091f3b;
+    margin-bottom: 10px;
+  }
+  
+  .pedidos-form .MuiFormControl-root,
+  .pedidos-form .MuiTextField-root {
+    margin-bottom: 10px;
+  }
+  
+  .pedidos-form .MuiButton-root {
+    background-color: #007bff;
+    color: white;
+  }
+
+  .pedidos-form .MuiButton-root:hover {
+    background-color: #0056b3;
+  }
+
+  .pedidos-list {
+    margin-top: 20px;
+  }
+
+  .pedidos-list-item {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .pedidos-container h2 {
+    color: #000000;
+}
+
+
+  .pedidos-list-item:last-child {
+    margin-bottom: 0;
+  }
+
+
+  @media (max-width: 768px) {
+    .pedidos-top-section {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .pedidos-image-container img {
+      width: 100%;
+    }
+
+    .pedidos-form-container {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  }
